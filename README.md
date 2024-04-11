@@ -2,7 +2,7 @@
 <!-- markdownlint-disable MD041 -->
 
 <div align="center">
-	<h1> Loham 🐍 </h1>
+	<h1> Loham[FastAPI]  </h1>
 	<div>
 		<a href="">
 			<img src="https://img.shields.io/crates/v/lune.svg?label=Version" alt="Current Lune library version" />
@@ -20,7 +20,7 @@
 </div>
 
 ---
-## about
+## About
 <p>This is an api built on top of fastAPI and Uvicorn server and jwt for authentication and authorization. your probably gonna ask why FastAPI uses Uvicorn by default Uvicorn is an ASGI server, which means it communicates using the Asynchronous Server Gateway Interface, a modern standard for Python asynchronous applications. </p>
 ---
 
@@ -59,57 +59,32 @@ DirectoryLayout <b></h1>
 
 ```
 
-├── Dockerfile                          
+├── .gitignore                          
 ├── LICENSE
 ├── README.md
-├── config.env                         ( For storing all the  environment variables)
+├──
 ├── requirements.txt                   ( For keeping all the library name wich project is using)
-├── TelegramBot
+├── app
 │   │
 │   ├── __init__.py                   ( Initializing the bot from here.)
-│   ├── __main__.py                   ( Starting the bot from here.)
-│   ├── config.py                     ( Importing and storing all envireonment variables from config.env)
-│   ├── logging.py                    ( Help in logging and get log file)
-│   │
-│   ├── assets                        ( An assets folder to keep all type of assets like thumbnail, font, constants, etc.)
+│   ├── companies.db                  ( Importing and storing all envireonment variables from config.env)
+│   ├── main.py
+|   |                  ( Help in logging and get log file)
+│   ├── company                        ( An assets folder to keep all type of assets like thumbnail, font, constants, etc.)
 │   │   └── __init__.py
-│   │   ├── font.ttf
-│   │   └── template.png
-│   │
-│   ├── database                      (Sperate folder to manage database related stuff for bigger projects.)
-│   │   ├── __init__.py
-│   │   ├── database.py              (contain functions related to handle database operations all over the bor)
-│   │   └── MongoDb.py               (Contain a MongoDB class to handle CRUD operations on MongoDB collection )
-│   │  
-│   ├── helpers                       ( Contain all the file wich is imported and  used all over the code. It act as backbone of code.)
-│   │   ├── __init__.py
-│   │   ├── filters.py 
-│   │   ├── decorators.py            ( Contain all the python decorators)
-│   │   ├── ratelimiter.py           (Contain RateLimiter class that handle ratelimiting part of the bot.)
-│   │   └── functions.py             ( Contain all the functions wich is used all over the code. )
-│   │
-│   ├── plugins                       ( plugins folder contain all the plugins commands via wich user interact)  
-│   │   ├── __init__.py 
-│   │   ├── developer
-│   │   │   ├── __init__.py
-│   │   │   ├── terminal.py
-│   │   │   └── updater.py
-│   │   │
-│   │   ├── sudo
-│   │   │   ├── __init__.py
-│   │   │   ├── speedtest.py
-│   │   │   ├── dbstats.py
-│   │   │   └── serverstats.py
-│   │   │   
-│   │   └── users
-│   │       ├── __init__.py
-│   │       ├── alive.py
-│   │       └── start.py
-│   │      
-│   └── version.py         
-└── start                             ( A start file containing bash script to start the bot using bash start)
+|   |   |── database.py
+|   |   |── models.py
+|   |   |── oauth2.py
+|   |   |── schemas.py
+|   |   |── token.py
+│   │   └─── routes
+│   │          └── __init__.py
+|   |          |── auth.py
+|   |          └── comp.py
+|   |          └── users.py
+|___|                            
 
-```    
+```
   
 -------
   
