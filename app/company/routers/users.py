@@ -53,20 +53,20 @@ def get_user(request: schemas.GetUser,current_user: schemas.User = Depends(oauth
 
 @router.post('/create_user', response_model=schemas.ShowUser)
 def create_user(request: schemas.User,current_user: schemas.User = Depends(oauth2.get_current_user),db: Session = Depends(get_db)):
-    if current_user.is_admin == "Yes":
-        hashedPassword = pwd_cxt.hash(request.password)
-        new_user = models.User(
-            name=request.name, 
-            email=request.email, 
-            password=hashedPassword, 
-            user_limit=request.user_limit,
-            is_admin=request.is_admin)
+    
+    hashedPassword = pwd_cxt.hash(request.password)
+    new_user = models.User(
+        name=request.name, 
+        email=request.email, 
+        password=hashedPassword, 
+        user_limit=request.user_limit,
+        is_admin=request.is_admin)
         
-        db.add(new_user)
-        db.commit()
-        db.refresh(new_user)
-        return new_user
-    return f"You don't have the privilege to create user Nigga!"
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+    return new_user
+    #return f"You don't have the privilege to create user ng!"
 
 @router.get('/get_all_users',response_model=List[schemas.ShowUser])
 def get_users(current_user: schemas.User = Depends(oauth2.get_current_user),db: Session = Depends(get_db)):
@@ -80,7 +80,7 @@ def remove_user(id:int, current_user: schemas.User = Depends(oauth2.get_current_
     is_admin = db.query(models.User).filter(models.User.is_admin == "Yes")
     
     if is_admin:
-        return 'Nigga for real'
+        return 'for real'
     
     if not query.first():
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail='user is not found!')
