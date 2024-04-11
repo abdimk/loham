@@ -9,8 +9,8 @@ from company import models
 #from sqlalchemy import or_
 #from sqlalchemy import text
 #import re
-from .company.routers import comp,users,auth
-from .company.database import engine
+from company.routers import comp,users,auth
+from company.database import engine
 
 
 app = FastAPI()
