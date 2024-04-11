@@ -32,7 +32,8 @@ def get_catagories():
     return {
         'Version': '0.0.1',
         'Developer': 'Abdisa (Netkas) | (0_0)',
-        'Released Year': 'April 10 2024'
+        'Released Year': 'April 10 2024',
+        'Github':'https://github.com/abdimk/loham'
     }
 
 
