@@ -2,7 +2,8 @@ from fastapi import FastAPI,Depends,Response
 from fastapi.responses import RedirectResponse
 #import app.company.database as database
 #import app.company.schemas as schemas
-from .company import models
+#from .company import models
+from company import models
 #from typing import List, Optional, Union
 #from sqlalchemy.orm import Session
 #from sqlalchemy import or_
