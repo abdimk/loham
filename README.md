@@ -15,52 +15,45 @@
 <p>This is an api built on top of fastAPI and Uvicorn server and jwt for authentication and authorization. your probably gonna ask why FastAPI uses Uvicorn by default Uvicorn is an ASGI server, which means it communicates using the Asynchronous Server Gateway Interface, a modern standard for Python asynchronous applications. </p>
 ---
 
-
-## Installation 
-<p>First start by installing the requirments by doing</p>
-
-```
-pip / pip3 install -r requirments.txt [windows / mac os | linux]
-```
--------
   
 <div align="center">
-<h2></h2><img src="https://telegra.ph/file/c182d98c9d2bc0295bc86.png" width="40"><b>  
+<h2></h2><img src="https://telegra.ph/file/c182d98c9d2bc0295bc86.png" width="20"><b>  
 DirectoryLayout<b></h2>
 </div>
 
 
 ```
 
-├── .gitignore                          
-├── LICENSE
-├── README.md
+├── .gitignore                     (to preventing unnecessary files from being tracked)           
+├── LICENSE                        (for specifying the terms under which the code can be used, modified, and distributed)
+├── README.md                      (a github file repository is crucial for providing essential information about your project)
 ├──
-├── requirements.txt                   ( For keeping all the library name wich project is using)
+├── requirements.txt               ( For keeping all the library name wich project is using)
 ├── app
 │   │
-│   ├── __init__.py                   ( Initializing the bot from here.)
-│   ├── companies.db                  ( Importing and storing all envireonment variables from config.env)
-│   ├── main.py
-|   |                  ( Help in logging and get log file)
-│   ├── company                        ( An assets folder to keep all type of assets like thumbnail, font, constants, etc.)
+│   ├── __init__.py                 ( Initializing the package from here.)
+│   ├── companies.db                (A SQLite database file for storing all information related to companies)
+│   ├── main.py			    (The main Python script for running the application)
+|   |                  
+│   ├── company                     (A directory containing code related to company management)
 │   │   └── __init__.py
-|   |   |── database.py
-|   |   |── models.py
-|   |   |── oauth2.py
-|   |   |── schemas.py
-|   |   |── token.py
-│   │   └─── routes
-│   │          └── __init__.py
-|   |          |── auth.py
-|   |          └── comp.py
-|   |          └── users.py
+|   |   |── database.py  	    (Python code for interacting with the SQLite database)
+|   |   |── models.py               (Python code defining data models for companies)
+|   |   |── oauth2.py  		    (Python code for OAuth2 authentication)
+|   |   |── schemas.py              (Python code defining Pydantic schemas for data validation)
+|   |   |── token.py                (Python code for generating authentication tokens)
+│   │   └─── routes                 (A directory containing API routes for company-related operations)
+│   │          └── __init__.py   
+|   |          |── auth.py          (Python code defining authentication routes)
+|   |          └── comp.py          (Python code defining CRUD operations for companies)
+|   |          └── users.py         (Python code defining CRUD operations for users)
 |___|                            
 
 ```
   
 -------
-  
+
+
 <div align="center">
 <h1><b>Basic structure for building your own plugin.</b></h1>
 </div>
@@ -82,6 +75,16 @@ async def hello(client: Client, message: Message):
 ```
 	    
 _____
+
+
+
+## Installation 
+<p>First start by installing the requirments by doing</p>
+
+```
+pip / pip3 install -r requirments.txt [windows / mac os | linux]
+```
+-------
   
 <div align="center">
 <h1><b>Credits and Contibution</b></h1>
