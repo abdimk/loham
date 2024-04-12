@@ -87,7 +87,70 @@ curl -X 'GET' \
 }
 
 ```
-	    
+## Get category count 
+```py
+import requests
+import json
+
+req = requests.get('https://loham.onrender.com/get_category_count')
+data_str = req.content.decode('utf-8')
+json_data = json.loads(data_str)
+
+print(json.dumps(json_data, indent=4))
+```
+
+## output
+```json
+    [
+{
+        "categories": "Foreign Suppliers to Ethiopia",
+        "category_count": 49
+    },
+    {
+        "categories": "Hotels and Restaurants, Tour and Travel",
+        "category_count": 64
+    },
+    {
+        "categories": "Insurance Brokerage",
+        "category_count": 18
+    },
+    {
+        "categories": "Micro and Small Enterprises in Ethiopia",
+        "category_count": 3931
+    }
+]
+```
+
+## Get Company with db id
+```py
+import requests
+import json
+
+id = 609
+req = requests.get(f'https://loham.onrender.com/get/{id}')
+data_str = req.content.decode('utf-8')
+json_data = json.loads(data_str)
+
+print(json.dumps(json_data, indent=4))
+```
+## output
+<p>The output is based of the specified schema in fastAPI(response schema)</p>
+```json
+{
+    "id": 609,
+    "company_name": "CAROGA PHARMA ETHIOPIA PLC",
+    "phone_number": "+25 11 4161090/4165159/4654944",
+    "mobile": "+251 91 1209007",
+    "fax": "+251 11 4654595",
+    "sub_city": "Kirkos",
+    "business_type": "Private",
+    "location": "Addis Ababa, Ethiopia",
+    "url": "https://www.2merkato.com/directory/709-caroga-pharma-ethiopia-plc",
+    "primary_category": "None",
+    "categories": "Commission Agent"
+}
+
+```
 _____
 
 
