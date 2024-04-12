@@ -47,8 +47,8 @@ A C++ SFML Simple Snake game with custom game engine [Snake](https://github.com/
 Head over to the [installation](https://lune.gitbook.io/lune/home/installation) page to get started using Lune!
 
 
-
-
+`pip3 install -r requirments.txt``
+```
 -------
   
 <div align="center">
