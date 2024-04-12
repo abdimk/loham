@@ -1,8 +1,11 @@
 <div>
 	<h1> Loham[FastAPI]  </h1>
-	<q> The <s>biggest</s> business birectory API in Ethiopia</q>
+	
 
 </div>
+
+
+
 ---
 ## About
 <p>This is an api built on top of fastAPI and Uvicorn server and jwt for authentication and authorization. your probably gonna ask why FastAPI uses Uvicorn by default Uvicorn is an ASGI server, which means it communicates using the Asynchronous Server Gateway Interface, a modern standard for Python asynchronous applications. </p>
