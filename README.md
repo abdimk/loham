@@ -240,6 +240,9 @@ print(json.dumps(json_data, indent=4))
 ### output
 
 <p> list of arrays max 10 results</p>
+
+
+
 ```json
 [
     {
@@ -270,6 +273,8 @@ print(json.dumps(json_data, indent=4))
     }
 ]
 ```
+
+
 
 ### Get(search) with phone number 
 ```py
