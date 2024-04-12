@@ -3,6 +3,7 @@
 
 <div align="center">
 	<h1> Loham[FastAPI]  </h1>
+	<q> The <s>biggest</s> business birectory API in Ethiopia</q>
 	<div>
 		<a href="">
 			<img src="https://img.shields.io/crates/v/lune.svg?label=Version" alt="Current Lune library version" />
