@@ -2,9 +2,10 @@
     <h1 align="center"> Loham[FastAPI] </h1>
 </div>
 
-<div style="text-align: left;">
-    <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width="150" style="border-radius: 10px;">
+<div style="text-align: left; border-radius: 10px;">
+    <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width="150">
 </div>
+
 
 
 
