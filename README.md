@@ -173,10 +173,103 @@ print(json.dumps(json_data, indent=4))
 
 ### output
 
-<p>returns a list of arryays max 10 for free users</p>
+
+```json
+returns a list of arryays max 10 for free users
+
+
+[
+    {
+        "id": 57,
+        "company_name": "GIGAR TRADING IMPORT, EXPORT & DISTRIBUTOR",
+        "phone_number": "+251 11 5518267/5505853/54",
+        "mobile": "+251 91 1201117",
+        "fax": "+251 11 5502911",
+        "sub_city": "",
+        "business_type": "Private",
+        "location": "Addis Ababa",
+        "url": "https://www.2merkato.com/directory/11267-gigar-trading-import-export-distributor",
+        "primary_category": "None",
+        "categories": "Commercial Agent"
+    },
+    {
+        "id": 68,
+        "company_name": "Tsegaab Teklu Import Export PLC",
+        "phone_number": "+251-11-6525213",
+        "mobile": "",
+        "fax": "",
+        "sub_city": "Kirkos",
+        "business_type": "",
+        "location": "Tsegaab Teklu Import Export PLC: Import and Export. Kirkos Sub-City Addis Ababa Region 14 15963 City: Addis Ababa Administrative region: Addis Ababa Country: Ethiopia, Addis Ababa, Ethiopia",
+        "url": "https://www.2merkato.com/directory/16504-tsegaab-teklu-import-export-plc",
+        "primary_category": "None",
+        "categories": "Commercial Agent"
+    }
+]
+```
+
+### Get with initals with post request
+
+```py
+import requests
+import json
+
+
+url = 'https://loham.onrender.com/get_with_initals'
+
+# payload = {
+#     "company_name": "string", # Optional
+#     "sub_city": "string", #Optional
+#     "business_type": "string",  #Optional
+#     "primary_category": "string", #Optional
+#     "categories": "string" #Optional
+#   }
+
+payload = {
+    "sub_city": "yeka",
+    "business_type": "private",
+    "categories": "Ethiopian Importers"
+    }
+
+req = requests.post(url, json=payload)
+data_str = req.content.decode('utf')
+json_data = json.loads(data_str)
+
+print(json.dumps(json_data, indent=4))
+```
+### output
 
 ```json
 
+// list of arrays max 10 results
+
+    {
+        "id": 3511,
+        "company_name": "Sisay Gulema Building Material General Importer",
+        "phone_number": "+251 115 15 58 11",
+        "mobile": "+251 911 21 21 16",
+        "fax": "+251 115 15 21 24",
+        "sub_city": "yeka",
+        "business_type": "Private",
+        "location": "Urael, Besides Ministry of Agriculture and Urban Development, Addis Ababa, Ethiopia",
+        "url": "https://www.2merkato.com/directory/14864-sisay-gulema-building-material-general-importer",
+        "primary_category": "Pipes and Fittings/polypopylene",
+        "categories": "Ethiopian Importers"
+    },
+    {
+        "id": 3540,
+        "company_name": "Dagem Kennedy General Trading PLC",
+        "phone_number": "",
+        "mobile": "+251 930 11 03 26, +251 911 62 67 84, +251 930 11 03 25",
+        "fax": "",
+        "sub_city": "Yeka",
+        "business_type": "Private",
+        "location": "22 Mazoria, Behind H&M Building, House #1006, Addis Ababa, Ethiopia",
+        "url": "https://www.2merkato.com/directory/19748-dagem-kennedy-general-trading-plc",
+        "primary_category": "Electrical Materials/Equipments",
+        "categories": "Ethiopian Importers"
+    }
+]
 ```
 _____
 
