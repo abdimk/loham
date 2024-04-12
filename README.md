@@ -1,7 +1,4 @@
-<!-- markdownlint-disable MD033 -->
-<!-- markdownlint-disable MD041 -->
 
-<div align="center">
 	<h1> Loham[FastAPI]  </h1>
 	<q> The <s>biggest</s> business birectory API in Ethiopia</q>
 
