@@ -61,18 +61,24 @@ DirectoryLayout<b></h1>
 
 ## To see the version 
 ```py
-from TelegramBot.helpers.decorators import ratelimiter
-from pyrogram import Client, filters
-from pyrogram.types import Message
+import requests
+import json
 
+req = requests.get('https://loham.onrender.com/v1/about')
+data_str = req.content.decode('utf-8')
+json_data = json.loads(data_str)
 
-@Client.on_message(filters.command(["hello", "hi"]))
-@ratelimiter
-async def hello(client: Client, message: Message):
-    """
-    simple plugin to demonstrate in readme.
-    """   	
-    return await message.reply_text("world")	    
+print(json.dumps(json_data, indent=4))	    
+```
+
+```json
+{
+    "Version": "0.0.1",
+    "Developer": "Abdisa (Netkas) | (0_0)",
+    "Released Year": "April 10 2024",
+    "Github": "https://github.com/abdimk/loham"
+}
+
 ```
 	    
 _____
