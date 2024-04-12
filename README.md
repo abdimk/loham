@@ -239,10 +239,9 @@ print(json.dumps(json_data, indent=4))
 ```
 ### output
 
+<p> list of arrays max 10 results</p>
 ```json
-
-// list of arrays max 10 results
-
+[
     {
         "id": 3511,
         "company_name": "Sisay Gulema Building Material General Importer",
@@ -271,6 +270,27 @@ print(json.dumps(json_data, indent=4))
     }
 ]
 ```
+
+### Get(search) with phone number 
+```py
+import requests
+import json
+
+url = 'https://loham.onrender.com/get_with_phone'
+
+payload = {
+    "phone_number": "251116",
+    "limit": 10 # the no of results you want to get
+    }
+
+req = requests.post(url, json=payload)
+data_str = req.content.decode('utf')
+json_data = json.loads(data_str)
+
+print(json.dumps(json_data, indent=4))
+```
+
+<p> returns an array of list companies type</p>
 _____
 
 
