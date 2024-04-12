@@ -299,7 +299,7 @@ print(json.dumps(json_data, indent=4))
 _____
 
 
-
+<!--
 ## Installation 
 <p>First start by installing the requirments by doing</p>
 
@@ -307,20 +307,20 @@ _____
 pip / pip3 install -r requirments.txt [windows / mac os | linux]
 ```
 -------
-  
+    -->
 <div align="center">
 <h1><b>Credits and Contibution</b></h1>
 </div>
-  
+
 <img src="https://telegra.ph/file/b26313d73e4d05de84a85.png" align="right" width="150">
 <p>
-Codes and structure of this bot is heavily inspired by open source projects like <a href="https://github.com/TeamYukki/YukkiMusicBot"><strong>YukkiMusicbot</strong></a> | <a href="https://github.com/UsergeTeam/Userge"><strong>Userge</strong></a> | <a href="https://github.com/EverythingSuckz/TG-FileStreamBot"><strong>TG-FileStreamBot etc.</strong></a>.
+Codes and structure of this bot is heavily inspired by open source projects like <a href="https:/"><strong></strong></a> | <a href=""><strong>Userge</strong></a> | <a href=""><strong>TG-FileStreamBot etc.</strong></a>.
 <br>
 <br>
  Special Thanks to <br>
-• <a href="https://github.com/delivrance"><strong>Dan</strong></a> for creating <a href="https://github.com/pyrogram/pyrogram"><strong>Pyrogram.</strong></a><br>
-• <a href="https://github.com/starry69"> Starry</a> for guiding and acutebot repository. <br>
-• <a href="https://github.com/annihilatorrrr">Annihilator</a> for helping me out with pyrogram stuff.
+• <a href=""><strong>Chat GPT</strong></a> for creating <a href=""><strong>Pyrogram.</strong></a><br>
+• <a href=""> Starry</a> <br>
+• <a href="">Annihilator</a>
 
 <br>
 <br>
