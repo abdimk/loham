@@ -55,10 +55,11 @@ DirectoryLayout<b></h1>
 
 
 <div align="center">
-<h1><b>Basic structure for building your own plugin.</b></h1>
+<h1><b>Basic structure </b></h1>
 </div>
 
 
+## To see the version 
 ```py
 from TelegramBot.helpers.decorators import ratelimiter
 from pyrogram import Client, filters
