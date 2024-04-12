@@ -135,6 +135,7 @@ print(json.dumps(json_data, indent=4))
 ```
 ## output
 <p>The output is based of the specified schema in fastAPI(response schema)</p>
+
 ```json
 {
     "id": 609,
