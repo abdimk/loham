@@ -3,7 +3,7 @@
 </div>
 
 <div align="left">
-	<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width=30>
+	<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width=50>
 </div>
 
 
