@@ -1,4 +1,4 @@
-<div>
+<div text-align:center>
     <h1 style="text-align:center"> Loham[FastAPI] </h1>
 </div>
 
