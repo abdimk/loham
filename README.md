@@ -3,25 +3,6 @@
 	<q> The <s>biggest</s> business birectory API in Ethiopia</q>
 
  
-
-    
-
-	<div>
-		<a href="">
-			<img src="https://img.shields.io/crates/v/lune.svg?label=Version" alt="Current Lune library version" />
-		</a>
-		<a href="">
-			<img src="https://shields.io/endpoint?url=https://badges.readysetplay.io/workflow/filiptibell/lune/ci.yaml" alt="CI status" />
-		</a>
-		<a href="">
-			<img src="https://shields.io/endpoint?url=https://badges.readysetplay.io/workflow/filiptibell/lune/release.yaml" alt="Release status" />
-		</a>
-		<a href="">
-			<img src="https://img.shields.io/github/license/filiptibell/lune.svg?label=License&color=informational" alt="Current Lune library version" />
-		</a>
-	</div>
-</div>
-
 ---
 ## About
 <p>This is an api built on top of fastAPI and Uvicorn server and jwt for authentication and authorization. your probably gonna ask why FastAPI uses Uvicorn by default Uvicorn is an ASGI server, which means it communicates using the Asynchronous Server Gateway Interface, a modern standard for Python asynchronous applications. </p>
