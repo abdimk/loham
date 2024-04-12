@@ -16,36 +16,17 @@
 ---
 
 
-## Project Overview
-
-A C++ SFML Simple Snake game with custom game engine [Snake](https://github.com/abdimk/Snake) .
-
-
-
-## Features
-
--   🌙 
--   🧰 Collusion detection 
--   📚 custome state and texture
--   🏡 Customizable layout
--   ✏️ Optional built-in library for manipulating SFML 
-
-## Non-goals
-....
-
-## Where do I start?
-
-Head over to the [installation](https://lune.gitbook.io/lune/home/installation) page to get started using Lune!
-
+## Installation 
+<p>First start by installing the requirments by doing</p>
 
 ```
-pip3 install -r requirments.txt
+pip / pip3 install -r requirments.txt [windows / mac os | linux]
 ```
 -------
   
 <div align="center">
-<h1><img src="https://telegra.ph/file/c182d98c9d2bc0295bc86.png" width="45"><b>  
-DirectoryLayout <b></h1>
+<h2></h2><img src="https://telegra.ph/file/c182d98c9d2bc0295bc86.png" width="40"><b>  
+DirectoryLayout<b></h2>
 </div>
 
 
