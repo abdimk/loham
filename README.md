@@ -6,7 +6,10 @@
 	<q> The <s>biggest</s> business birectory API in Ethiopia</q>
 
  
-[![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)
+<div style="float: left; margin-right: 10px;">
+    [![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)
+</div>
+
 	<div>
 		<a href="">
 			<img src="https://img.shields.io/crates/v/lune.svg?label=Version" alt="Current Lune library version" />
