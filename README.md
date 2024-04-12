@@ -6,7 +6,7 @@
 	<q> The <s>biggest</s> business birectory API in Ethiopia</q>
 
  
-<div style="float: left; margin-right: 10px;">
+<div style="position:left">
     [![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)
 </div>
 
