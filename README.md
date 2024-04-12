@@ -134,6 +134,7 @@ json_data = json.loads(data_str)
 print(json.dumps(json_data, indent=4))
 ```
 ## output
+
 <p>The output is based of the specified schema in fastAPI(response schema)</p>
 
 ```json
@@ -150,6 +151,31 @@ print(json.dumps(json_data, indent=4))
     "primary_category": "None",
     "categories": "Commission Agent"
 }
+
+```
+
+### Get companies with initals in thier name
+
+```py
+import requests
+import json
+
+
+#common key initals are like agro,pharma,agents,consultancy,export,import
+
+key = 'export'  # for example to get companies that have pharma in their name
+req = requests.get(f"https://loham.onrender.com/get_with_initals/{key}")
+data_str = req.content.decode('utf-8')
+json_data = json.loads(data_str)
+
+print(json.dumps(json_data, indent=4))
+```
+
+### output
+
+<p>returns a list of arryays max 10 for free users</p>
+
+```json
 
 ```
 _____
