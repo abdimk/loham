@@ -1,5 +1,5 @@
 <div>
-	<h1> Loham[FastAPI]  </h1>
+	<h1 style="text-align:center"> Loham[FastAPI]  </h1>
 	
 
 </div>
