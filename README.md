@@ -3,6 +3,7 @@
 </div>
 
 <p align="center"><em>Highly Organized Business Directory API</em></p>
+<p align="center"> 41k filtered records out of 100k</p>
 
 
 
