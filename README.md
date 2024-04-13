@@ -2,7 +2,7 @@
     <h1 align="center"> Loham</h1>
 </div>
 
-<em>Highly Organized Business Directory API</em>
+<em align="center">Highly Organized Business Directory API</em>
 
 
 <div style="text-align: left; border-radius: 10px;">
