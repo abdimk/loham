@@ -7,6 +7,9 @@
 
 <div style="text-align: left; border-radius: 10px;">
     <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width="150">
+    <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150">
+    <img src="https://images.app.goo.gl/m6vD1AbapszU5a22A" width="150">
+    <img src="https://img.stackshare.io/service/12834/uvicorn.png" width="150">
 </div>
 
 
