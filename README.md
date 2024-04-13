@@ -38,7 +38,7 @@
 
 ---
 ## About
-<p>Business Directory API built on top of <strong>FastAPI</strong> and <strong>Uvicorn Server</strong>. JWT for authentication and authorization.FastAPI uses Uvicorn by default Uvicorn is an ASGI server, which means it communicates using the Asynchronous Server Gateway Interface, a modern standard for Python asynchronous applications. </p>
+<p>Business Directory API built on top of <strong>FastAPI</strong> and <strong>Uvicorn Server</strong> uses JWT for authentication and authorization. FastAPI has native support for Uvicorn,Uvicorn is an ASGI server, which means it communicates using the Asynchronous Server Gateway Interface, a modern standard for Python asynchronous applications. </p>
 
 
   
