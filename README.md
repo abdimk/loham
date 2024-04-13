@@ -5,8 +5,6 @@
 <p align="center"><em>Highly Organized Business Directory API</em></p>
 <p align="center"> 41k filtered records out of 100k</p>
 
-
-
 <div align="center">
     <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width="150">
     <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150">
@@ -344,6 +342,7 @@ pip / pip3 install -r requirments.txt [windows / mac os | linux]
 Codes and structure of this bot is heavily inspired by open source projects like <a href="https:/"><strong></strong></a> | <a href=""><strong>Userge</strong></a> | <a href=""><strong>TG-FileStreamBot etc.</strong></a>. -->
 <br>
  Special Thanks to 
+ <br>
  <br>
 • <a href="https://github.com/tiangolo">Tiangolo</strong></a> for creating <a href="https://github.com/tiangolo/fastapi"><strong>FastAPI</strong></a><br>
 <!-- • <a href=""></a> <br>
