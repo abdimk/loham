@@ -339,14 +339,13 @@ pip / pip3 install -r requirments.txt [windows / mac os | linux]
 </div>
 
 <img src="https://telegra.ph/file/b26313d73e4d05de84a85.png" align="right" width="150">
-<p>
-Codes and structure of this bot is heavily inspired by open source projects like <a href="https:/"><strong></strong></a> | <a href=""><strong>Userge</strong></a> | <a href=""><strong>TG-FileStreamBot etc.</strong></a>.
-<br>
+<!-- <p>
+Codes and structure of this bot is heavily inspired by open source projects like <a href="https:/"><strong></strong></a> | <a href=""><strong>Userge</strong></a> | <a href=""><strong>TG-FileStreamBot etc.</strong></a>. -->
 <br>
  Special Thanks to <br>
-• <a href="https://github.com/tiangolo">tiangolo<strong>Chat GPT</strong></a> for creating <a href="https://github.com/tiangolo/fastapi"><strong>FastAPI</strong></a><br>
-• <a href=""> Starry</a> <br>
-• <a href="">Annihilator</a>
+• <a href="https://github.com/tiangolo">Tiangolo</strong></a> for creating <a href="https://github.com/tiangolo/fastapi"><strong>FastAPI</strong></a><br>
+<!-- • <a href=""></a> <br>
+• <a href=""></a> -->
 
 <br>
 <br>
