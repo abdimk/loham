@@ -1,5 +1,7 @@
 <div>
     <h1 align="center"> Loham</h1>
+
+    <em>Highly Organized Business Directory API</em>
 </div>
 
 <div style="text-align: left; border-radius: 10px;">
@@ -9,11 +11,27 @@
 
 
 
+<p align="center" dir="auto">
+<a href="https://github.com/tiangolo/fastapi/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster">
+    <img src="https://github.com/tiangolo/fastapi/workflows/Test/badge.svg?event=push&amp;branch=master" alt="Test" style="max-width: 100%;">
+</a>
+<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/tiangolo/fastapi" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/f63da5c04568c26cac1b9a03c24ed3843ce6602ba795bd3d4afea2641d7d1ca6/68747470733a2f2f636f7665726167652d62616467652e73616d75656c636f6c76696e2e776f726b6572732e6465762f7469616e676f6c6f2f666173746170692e737667" alt="Coverage" data-canonical-src="https://coverage-badge.samuelcolvin.workers.dev/tiangolo/fastapi.svg" style="max-width: 100%;">
+</a>
+<a href="https://pypi.org/project/fastapi" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/99c569b5455db547b1fb5636c8c10612c0d114e83d4ea8b642284915c88ce287/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f666173746170693f636f6c6f723d253233333444303538266c6162656c3d707970692532307061636b616765" alt="Package version" data-canonical-src="https://img.shields.io/pypi/v/fastapi?color=%2334D058&amp;label=pypi%20package" style="max-width: 100%;">
+</a>
+<a href="https://pypi.org/project/fastapi" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/97779323fa03e0a4ec57beb1ba34c1038a2974842e06e6ba4c899f4226b84370/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f666173746170692e7376673f636f6c6f723d253233333444303538" alt="Supported Python versions" data-canonical-src="https://img.shields.io/pypi/pyversions/fastapi.svg?color=%2334D058" style="max-width: 100%;">
+</a>
+</p>
+
+
 
 ---
 ## About
-<p>This is an api built on top of fastAPI and Uvicorn server and jwt for authentication and authorization. your probably gonna ask why FastAPI uses Uvicorn by default Uvicorn is an ASGI server, which means it communicates using the Asynchronous Server Gateway Interface, a modern standard for Python asynchronous applications. </p>
----
+<p>Business Directory API built on top of <strong>FastAPI</strong> and <strong>Uvicorn Server</strong>. JWT for authentication and authorization.FastAPI uses Uvicorn by default Uvicorn is an ASGI server, which means it communicates using the Asynchronous Server Gateway Interface, a modern standard for Python asynchronous applications. </p>
+
 
   
 <div align="center">
@@ -318,7 +336,7 @@ Codes and structure of this bot is heavily inspired by open source projects like
 <br>
 <br>
  Special Thanks to <br>
-• <a href=""><strong>Chat GPT</strong></a> for creating <a href=""><strong>Pyrogram.</strong></a><br>
+• <a href="https://github.com/tiangolo">tiangolo<strong>Chat GPT</strong></a> for creating <a href="https://github.com/tiangolo/fastapi"><strong>FastAPI</strong></a><br>
 • <a href=""> Starry</a> <br>
 • <a href="">Annihilator</a>
 
