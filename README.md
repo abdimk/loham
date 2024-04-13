@@ -342,13 +342,15 @@ pip / pip3 install -r requirments.txt [windows / mac os | linux]
 <!-- <p>
 Codes and structure of this bot is heavily inspired by open source projects like <a href="https:/"><strong></strong></a> | <a href=""><strong>Userge</strong></a> | <a href=""><strong>TG-FileStreamBot etc.</strong></a>. -->
 <br>
- Special Thanks to <br>
+ Special Thanks to 
+ <br>
+ <br>
 • <a href="https://github.com/tiangolo">Tiangolo</strong></a> for creating <a href="https://github.com/tiangolo/fastapi"><strong>FastAPI</strong></a><br>
 <!-- • <a href=""></a> <br>
 • <a href=""></a> -->
 
 <br>
 <br>
-Any type of suggestions, pointing out bug or contribution is highly appreciated. :)
+Any type of suggestions, pointing out bug or contribution is highly appreciated :).
 </p>
  
