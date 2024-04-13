@@ -345,7 +345,6 @@ Codes and structure of this bot is heavily inspired by open source projects like
 <br>
  Special Thanks to 
  <br>
- <br>
 • <a href="https://github.com/tiangolo">Tiangolo</strong></a> for creating <a href="https://github.com/tiangolo/fastapi"><strong>FastAPI</strong></a><br>
 <!-- • <a href=""></a> <br>
 • <a href=""></a> -->
