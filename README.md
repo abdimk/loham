@@ -5,7 +5,7 @@
 <p align="center"><em>Highly Organized Business Directory API</em></p>
 
 
-<div style="text-align: center; border-radius: 10px;">
+<div style="align: center; border-radius: 10px;">
     <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width="150">
     <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150">
     <img src="https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png" width="150">
