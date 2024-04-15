@@ -352,6 +352,5 @@ Codes and structure of this bot is heavily inspired by open source projects like
 <br>
 
 <img src="https://pbs.twimg.com/media/CsjbGV6W8AAvBWi.jpg" width="150">
-Any type of suggestions, pointing out bug or contribution is highly appreciated :).
-</p>
+<p>Any type of suggestions, pointing out bug or contribution is highly appreciated :).</p>
  
