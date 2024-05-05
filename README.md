@@ -22,7 +22,9 @@
 
 <p align="center" dir="auto">
 <a href="https://github.com/tiangolo/fastapi/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster">
-    <img src="https://github.com/tiangolo/fastapi/workflows/Test/badge.svg?event=push&amp;branch=master" alt="Test" style="max-width: 100%;">
+    <img src="https://github.com/tiangolo/fastapi/workflows/Test/badge.svg?event=push&amp;branch=master" 
+        href="https://github.com/tiangolo/fastapi/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster">
+        alt="Test" style="max-width: 100%;">
 </a>
 <a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/tiangolo/fastapi" rel="nofollow">
     <img src="https://camo.githubusercontent.com/f63da5c04568c26cac1b9a03c24ed3843ce6602ba795bd3d4afea2641d7d1ca6/68747470733a2f2f636f7665726167652d62616467652e73616d75656c636f6c76696e2e776f726b6572732e6465762f7469616e676f6c6f2f666173746170692e737667" alt="Coverage" data-canonical-src="https://coverage-badge.samuelcolvin.workers.dev/tiangolo/fastapi.svg" style="max-width: 100%;">
