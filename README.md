@@ -6,7 +6,7 @@
 <p align="center"> 41k filtered records out of 100k</p>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width="150">
+    <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" href="test.com" width="150">
     <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150">
     <img src="https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png" width="150">
     <img src="https://img.stackshare.io/service/12834/uvicorn.png" width="100">
