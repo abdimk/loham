@@ -337,7 +337,7 @@ pip / pip3 install -r requirments.txt [windows / mac os | linux]
 <h1><b>Credits and Contibution</b></h1>
 </div>
 
-<img src="https://telegra.ph/file/b26313d73e4d05de84a85.png" align="right" width="150">
+
 <!-- <p>
 Codes and structure of this bot is heavily inspired by open source projects like <a href="https:/"><strong></strong></a> | <a href=""><strong>Userge</strong></a> | <a href=""><strong>TG-FileStreamBot etc.</strong></a>. -->
 <br>
@@ -351,6 +351,6 @@ Codes and structure of this bot is heavily inspired by open source projects like
 <br>
 <br>
 
-<!-- img src="https://pbs.twimg.com/media/CsjbGV6W8AAvBWi.jpg" width="150"> -->
+<img src="https://pbs.twimg.com/media/CsjbGV6W8AAvBWi.jpg" width="150">
 <p>Any type of suggestions, pointing out bug or contribution is highly appreciated :).</p>
  
