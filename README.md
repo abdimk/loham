@@ -198,9 +198,11 @@ print(json.dumps(json_data, indent=4))
 
 ### output
 
-
 ```json
 returns a list of arryays max 10 for free users
+```
+```json
+
 
 
 [
@@ -320,7 +322,7 @@ json_data = json.loads(data_str)
 print(json.dumps(json_data, indent=4))
 ```
 ```json
-<p> returns an array of list companies type</p>
+    returns an array of list companies type
 ```
 
 
