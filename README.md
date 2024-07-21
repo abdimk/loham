@@ -345,11 +345,12 @@ Codes and structure of this bot is heavily inspired by open source projects like
  <br>
 • <a href="https://github.com/tiangolo">Tiangolo</strong></a> for creating <a href="https://github.com/tiangolo/fastapi"><strong>FastAPI</strong></a><br>
 <!-- • <a href=""></a> <br>
+<img src="https://pbs.twimg.com/media/CsjbGV6W8AAvBWi.jpg" width="150">
 • <a href=""></a> -->
 
 <br>
 <br>
 
-<img src="https://pbs.twimg.com/media/CsjbGV6W8AAvBWi.jpg" width="150">
+
 <p>Any type of suggestions, pointing out bug or contribution is highly appreciated :).</p>
  
