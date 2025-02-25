@@ -1,36 +1,35 @@
-<div>
-    <h1 align="center"> Loham</h1>
+<div style="text-align: center;">
+    <h1> Loham</h1>
 </div>
 
-<p align="center"><em>Highly Organized Business Directory API</em></p>
-<p align="center"> 41k filtered records out of 100k</p>
+<p style="text-align: center;"><em>Highly Organized Business Directory API</em></p>
+<p style="text-align: center;">41k filtered records out of 100k</p>
 
-<div align="center">
-    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width="150"></a>
-    <a href="https://fastapi.tiangolo.com/"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="150"></a>
-    <a href="https://jwt.io/"><img src="https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png" width="150"></a>
-    <a href="https://www.uvicorn.org/"><img src="https://img.stackshare.io/service/12834/uvicorn.png" width="100"></a>
+<div style="text-align: center;">
+    <a href="https://www.python.org/">
+        <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" width="120">
+    </a>
+    <a href="https://fastapi.tiangolo.com/">
+        <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="120">
+    </a>
+    <a href="https://jwt.io/">
+        <img src="https://seeklogo.com/images/J/jwt-logo-11B708E375-seeklogo.com.png" width="120">
+    </a>
+    <a href="https://www.uvicorn.org/">
+        <img src="https://img.stackshare.io/service/12834/uvicorn.png" width="120">
+    </a>
 </div>
 
-
-<div>
-    <br>
-    <br>
-    <br>
-    <br>
-</div>
-
-<p align="center" dir="auto">
-<a href="https://github.com/tiangolo/fastapi/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster">
-    <img src="https://github.com/tiangolo/fastapi/workflows/Test/badge.svg?event=push&amp;branch=master" alt="Test" style="max-width: 100%;">
-</a>
-<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/tiangolo/fastapi" rel="nofollow">
-    <img src="https://camo.githubusercontent.com/f63da5c04568c26cac1b9a03c24ed3843ce6602ba795bd3d4afea2641d7d1ca6/68747470733a2f2f636f7665726167652d62616467652e73616d75656c636f6c76696e2e776f726b6572732e6465762f7469616e676f6c6f2f666173746170692e737667" alt="Coverage" data-canonical-src="https://coverage-badge.samuelcolvin.workers.dev/tiangolo/fastapi.svg" style="max-width: 100%;">
-</a>
-    
-<a href="https://pypi.org/project/fastapi" rel="nofollow">
-    <img src="https://camo.githubusercontent.com/97779323fa03e0a4ec57beb1ba34c1038a2974842e06e6ba4c899f4226b84370/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f666173746170692e7376673f636f6c6f723d253233333444303538" alt="Supported Python versions" data-canonical-src="https://img.shields.io/pypi/pyversions/fastapi.svg?color=%2334D058" style="max-width: 100%;">
-</a>
+<p style="text-align: center;">
+    <a href="YOUR_GITHUB_ACTIONS_LINK">
+        <img src="YOUR_TEST_BADGE_URL" alt="Test">
+    </a>
+    <a href="YOUR_COVERAGE_BADGE_LINK">
+        <img src="YOUR_COVERAGE_BADGE_URL" alt="Coverage">
+    </a>
+    <a href="https://pypi.org/project/fastapi">
+        <img src="https://img.shields.io/pypi/pyversions/fastapi.svg?color=%2334D058" alt="Supported Python versions">
+    </a>
 </p>
 
 
