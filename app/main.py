@@ -1,8 +1,14 @@
+import sys
 from fastapi import FastAPI,Depends,Response
 from fastapi.responses import RedirectResponse
-from company import models
-from company.routers import comp,users,auth
-from company.database import engine
+from pathlib import Path
+
+project_root = Path(__file__).resolve().parent.parent
+sys.path.append(str(project_root))
+
+from .company.database import engine
+from .company.routers import comp,users,auth
+from .company import models
 
 
 app = FastAPI(redoc_url=None)

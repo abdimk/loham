@@ -1,5 +1,5 @@
 import re
-from typing import List
+from typing import List, Optional
 from fastapi import Depends
 from sqlalchemy import text
 from .. import oauth2
@@ -52,7 +52,7 @@ def get_user(request: schemas.GetUser,current_user: schemas.User = Depends(oauth
 
 
 @router.post('/create_user', response_model=schemas.ShowUser)
-def create_user(request: schemas.User,current_user: schemas.User = Depends(oauth2.get_current_user),db: Session = Depends(get_db)):
+def create_user(request: schemas.User,current_user: Optional[schemas.User] = Depends(oauth2.get_current_user),db: Session = Depends(get_db)):
     
     hashedPassword = pwd_cxt.hash(request.password)
     new_user = models.User(
@@ -69,7 +69,7 @@ def create_user(request: schemas.User,current_user: schemas.User = Depends(oauth
     #return f"You don't have the privilege to create user ng!"
 
 @router.get('/get_all_users',response_model=List[schemas.ShowUser])
-def get_users(current_user: schemas.User = Depends(oauth2.get_current_user),db: Session = Depends(get_db)):
+def get_users(current_user: Optional[schemas.User] = Depends(oauth2.get_current_user),db: Session = Depends(get_db)):
     users = db.query(models.User).all()
     return users
 
